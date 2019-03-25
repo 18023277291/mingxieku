@@ -1,0 +1,76 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input{margin:0;padding:0;}
+a,u{text-decoration:none;}
+em,i{font-style:normal;}
+b,strong{font-weight:normal;}
+ul,ol,li{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight:normal;}
+body{font-family: "微软雅黑"}
+input{outline:none;}
+img{border:0;display:block;}
+.banner_pp,.brand,.xingxing,.baokuan,.short_sleeve{
+    width:990px;
+    margin:0 auto;
+}
+
+ /* header */
+.banner{
+    width:100%;
+    height:550px;
+} 
+/* banner_pp */
+.banner_pp{
+    height:550px;
+    position: relative;
+    /* overflow:hidden; */
+}
+.banner_pp img{
+    left:495px;
+    position: absolute;
+    margin-left:-960px;
+}
+#oo{
+    position: absolute;
+    left:80px;
+    top:80px;
+    width:700px;
+    height:420px;
+    /* background:red; */
+}
+/* brand */
+.brand{
+    height:392px;
+    width:990px;
+
+}
+.brand img{
+    position: relative;
+    left:495px;
+    margin-left:-960px;
+}
+/* xingxing */
+.xingxing{
+    height:833px;
+}
+.xingxing img{
+    position: relative;
+    left:495px;
+    margin-left:-960px;
+}
+/* baokuan */
+.baokuan{
+    height:1902px;
+}
+.baokuan img{
+    position: relative;
+    left:495px;
+    margin-left:-960px;
+}
+/* short_sleeve */
+.short_sleeve{
+    height:1902px;
+}
+.short_sleeve img{
+    position: relative;
+    left:495px;
+    margin-left:-960px;
+}
