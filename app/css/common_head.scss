@@ -292,7 +292,7 @@
 
 /* 二级菜单 */
 .suoyou_menu{
-    z-index: -9;
+    z-index: 9;
     width: 190px;
     background-color: #1e1908;
 }
@@ -441,7 +441,7 @@
     box-shadow: 0 0 3px #CCCCCC;
     padding: 5px 0;
     position: absolute;
-    z-index: -9;
+    z-index: 9;
 }
 .nanzi_nav .nanzi_cat{
     padding: 8px 0 13px;
@@ -505,7 +505,7 @@
     box-shadow: 0 0 3px #CCCCCC;
     padding: 5px 0;
     position: absolute;
-    z-index: -9;
+    z-index: 9;
 }
 .nvzi_nav .nvzi_cat{
     padding: 8px 0 13px;
@@ -568,7 +568,7 @@
     box-shadow: 0 0 3px #CCCCCC;
     padding: 5px 0;
     position: absolute;
-    z-index: -9;
+    z-index: 9;
 }
 .ertong_nav .ertong_cat{
     padding: 8px 0 13px;
