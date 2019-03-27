@@ -28,6 +28,7 @@ main{
 .styleSheet .detail_img{
     height:536px;
     width:447px;
+    float: left;
 }
 .styleSheet .detail_img .showImg{
     width:430px;
@@ -60,4 +61,18 @@ main{
     width:45px;
     height:35px;
     border:1px solid #fff;
+}
+.particular{
+    width:543px;
+    height:536px;
+    float: left;
+}
+.partiicular h2{
+    display:block;
+    width:435px;
+    height:43px;
+}
+.partiicular span{
+    display: block;
+    float: right;
 }
