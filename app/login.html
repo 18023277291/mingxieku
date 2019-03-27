@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/common2.css">
+    <link rel="stylesheet" href="css/register.css">
+    <title>用户登录</title>
+</head>
+
+<body>
+    <div class="head">
+        <div class="wrap">
+            <span class="logo">
+                <a title="返回名鞋库首页" href="#">
+                    <img src="images/newlogo.png" alt="欢迎来到名鞋库网上鞋城!">
+                </a>
+            </span>
+        </div>
+    </div>
+    <div class="AllWrapInside">
+        <div >
+            <div class="form">
+                <div class="wrapLeft">
+                    <a href="#">
+                        <img src="images/dl.png" alt="">
+                    </a>
+                </div>
+                <div class="wrapRight">
+                    <div class="box-min">
+                        <div class="box-img">
+                            <img src="images/loginpic21.png" alt="">
+                        </div>
+                        <div class="box-max">
+                            <form  method="POST" action="server/login.php" class="form-box" autocomplete="on">
+                                <div class="lala"></div>
+                                <div class="form-group">
+                                    <label for="tel">用户名:</label>
+                                    <input type="text" required class="form-control" id="tel" name="tel"
+                                        placeholder="请输入电话号码" data-error="需要输入6-13位的字母或者下划线">
+                                    <p class=""></p>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">密码:</label>
+                                    <input placeholder="请输入密码" required type="password" class="form-control" id="password"
+                                        name="password" placeholder="请设置密码" data-error="密码格式不正确">
+                                    <p class=""></p>
+                                </div>
+                                <!-- <div class="form-group">
+                                    <label for="password">验证码:</label>
+                                    <input placeholder="请输入验证码" required type="text" class="form-control form-min" id="password"
+                                        name="password" placeholder="请设置密码" data-error="密码格式不正确">
+                                        <span>
+                                            <img src="" alt="">
+                                            <a class="da" href="#">换个图片</a>
+                                        </span>
+                                    <p class=""></p>
+                                </div> -->
+                                <div class="login-box">
+                                  <button name="submit" type="submit" class="btn btn-success">确定</button>
+                                  <a href="#">忘记密码？</a>
+                                </div>
+                                <div class="mingBox">
+                                    <b>还不是名鞋库会员？</b>
+                                    <a href="./register.html">马上注册为会员</a>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="bottomBox">
+                            <p>使用合作账号登录名鞋库</p>
+                            <img src="images/qq_login_btn.png" alt="">
+                            <img src="images/taobao_login_btn.png" alt="">
+                            <img src="images/rr_login.png" alt="">
+                            <img src="images/sina_login_btn.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div>
+    </div>
+</body>
+
+</html>

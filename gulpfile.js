@@ -31,21 +31,24 @@ gulp.task('indexHtml',function(){ //首页监听
 	.pipe(connect.reload());
 });
 gulp.task('js',function(){	//js代码监听
-	gulp.src('app/javascript/*.js')
-	.pipe(gulp.dest('dist/javascript'))
+	gulp.src('app/js/*.js')
+	.pipe(gulp.dest('dist/js'))
 	.pipe(connect.reload());
 })
 gulp.task('ajaxApi',function(){	//api接口代码监听
 	gulp.src('app/ajaxApi/*.js')
 	.pipe(gulp.dest('dist/ajaxApi'))
+	.pipe(connect.reload());
 })
 gulp.task('commecss',function(){	//api接口代码监听
-	gulp.src('app/comme.css/*.css')
-	.pipe(gulp.dest('dist/comme.css'))
+	gulp.src('app/css/*.css')
+	.pipe(gulp.dest('dist/css'))
+	.pipe(connect.reload());
 })
 gulp.task('commejs',function(){	//api接口代码监听
-	gulp.src('app/comme.js/*.js')
-	.pipe(gulp.dest('dist/comme.js'))
+	gulp.src('app/js/*.js')
+	.pipe(gulp.dest('dist/js'))
+	.pipe(connect.reload());
 })
 gulp.task('imgchange',function(){	//api接口代码监听
 	gulp.src('app/images/*')
@@ -55,11 +58,10 @@ gulp.task('htmlWatch',function(){//监听css改变事件
 	gulp.watch('app/branchPage/*.html',['html'])
 	gulp.watch('app/*.html',['indexHtml'])
 	gulp.watch('app/css/*.scss',['Sass'])
-	gulp.watch('app/javascript/*.js',['js'])
+	gulp.watch('app/js/*.js',['js'])
 	gulp.watch('app/ajaxApi/*.js',['ajaxApi'])
-	gulp.watch('app/comme.css/*.css',['commecss'])
-	gulp.watch('app/comme.js/*.js',['commejs'])
+	gulp.watch('app/css/*.css',['commecss'])
+	gulp.watch('app/js/*.js',['commejs'])
 	gulp.watch('app/images/*',['imgchange'])
 });
-
 gulp.task('default',['allfile','Sass','conect','htmlWatch'])

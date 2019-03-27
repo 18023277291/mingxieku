@@ -1,0 +1,131 @@
+html,body,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,p,input,img{margin:0;padding:0;}
+body{font-family: "微软雅黑";}
+ul,ol,li{list-style: none;}
+a,u{text-decoration: none;}
+em,i{font-style: normal;}
+b,strong{font-weight: normal;}
+h1,h2,h3,h4,h5,h6{font-size: 16px;}
+input{outline: none;}
+img{display: block;}
+.clear：after{content:'.'; display:block; clear:both; height:0; overflow:hidden; visibility:hidden; } 
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size:12px;
+}
+
+/* 主体开始 */
+.Navigation,.n_bar,.n_filterbox{margin: 0 auto;}
+.Navigation{
+    width: 990px;
+    height:14px;
+    font-size:12px;
+    color:#999;
+    font-family: '宋体';
+    padding: 10px 0;
+}
+.Navigation span{
+    font-size: 12px;
+    margin: 0 5px 0 0;
+}
+.Navigation a{
+    color:#999;
+}
+.n_bar{
+    width: 974px;
+    border: 1px solid #e5e5e5;
+    background: #f1f1f1;
+    padding-left:14px;
+    font-size: 14px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+}
+.n_bar p{
+    display: inline-block;
+    height: 30px;
+    padding: 0 30px 0 0;
+    margin: 0;
+    background: url(../images/list_icon.png) no-repeat right 0;
+}
+.n_bar span{
+    color: #999;
+    font-size: 12px;
+}
+.n_bar i{
+    color: #c00;
+    padding:0 3px;
+}
+
+/* 选择 */
+.n_filterbox{
+    width: 988px;
+    border: 1px solid #e5e5e5;
+    border-top: 0;
+    margin-bottom: 0;
+    background: #fafafa;
+    height: 100%;
+}
+.n_filterbox:hover{
+    background:#fff;
+}
+.n_min{
+    border-bottom: 1px solid #E5E5E5;
+    margin-bottom: -1px;
+}
+.n_chose{
+    width:958px;
+    height: 21px;
+    padding:15px;
+    font-size:12px;
+    color:#666;
+}
+.n_chose a{
+    font-size:12px;
+    color: #c00;
+    border: 1px solid #c00;
+    border-radius: 2px;
+    height: 15px;
+    overflow: hidden;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+    padding: 2px 19px 2px 4px;
+}
+.n_chose a:hover{
+    border:1px solid #999;
+    color: #666;
+}
+.n_chose a h5{
+    font-weight: normal;
+    color: #808080;
+    display: inline;
+    font-size: 12px;
+}
+.n_chose a i{
+    display: block;
+    position: absolute;
+    right: 2px;
+    top: 3px;
+    height: 13px;
+    width: 13px;
+    overflow: hidden;
+    background: #c00 url(../images/list_icon.png) no-repeat 0 -43px;
+}
+.n_chose a i:hover{
+    background: #999 url(../images/list_icon.png) no-repeat 0 -43px;
+}
+.n_chose .rechose{
+    color: #808080;
+    padding: 0 0 0 15px;
+    border: 0;
+    margin-left: 7px;
+    background: url(../images/list_icon.png) no-repeat 0 -137px;
+}
+.n_chose .rechose:hover{
+    border:#666;
+    background: url(../images/list_icon.png) no-repeat 0 -66px;
+}

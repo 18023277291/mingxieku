@@ -1,0 +1,142 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .AllWrapInside {
+    width: 990px;
+    height: 480px;
+    margin: 0 auto;
+  }
+  .caca {
+    width: 780px;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: right;
+    padding-right: 10px;
+    a {
+      &:hover {
+        color: red;
+        cursor: pointer;
+      }
+    }
+  }
+  a {
+    color: #999;
+    font-size: 12px;
+  }
+  /* form表单 */
+  .boxForm {
+    width: 990px;
+    height: 440px;
+  }
+  .RegisterWrap {
+    margin: 0 auto;
+    width: 780px;
+  }
+  .form {
+    width: 780px;
+    height: 440px;
+    padding: 0;
+    border: 1px solid #efefef;
+    border-radius: 2px;
+    box-shadow: 0 0 8px #e5e5e5;
+  }
+  .formHead {
+    font-size: 16px;
+    color: #888;
+    background: #f8f8f8;
+    padding: 4px 10px;
+    border-bottom: 1px solid #efefef;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+  }
+  .showBox {
+    float: left;
+    width: 100%;
+    background: url(../images/signup.jpg) no-repeat bottom;
+  }
+  .BoxLeft {
+    float: left;
+    width: 65%;
+    height: 408px;
+    padding: 40px 0 60px 80px;
+  }
+  table {
+    width: 100%;
+  }
+  .tbodyStyle {
+    tr {
+      width: 426px;
+      height: 35px;
+      th {
+        font-size: 14px;
+        color: #666;
+        text-align: right;
+      }
+    }
+  }
+  .x-input {
+    width: 232px;
+    height: 30px;
+    color: #ccc;
+    border: 1px solid #ccc;
+    padding: 3px 5px;
+  }
+  .td {
+    padding-top: 25px;
+  }
+  .nof {
+    span {
+      font-size: 12px;
+      color: #888;
+    }
+  }
+  #license {
+    font-size: 12px;
+  }
+  #btn {
+    width: 89px;
+    height: 38px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #eb8c1b;
+  }
+  .BoxRight {
+    float: right;
+    width: 35%;
+    height: 308px;
+    margin: 50px 0;
+    text-align: center;
+    border-left: 1px dashed #ccc;
+  }
+  .minBox {
+    width: 100%;
+    b {
+      font-size: 12px;
+      color: #444;
+    }
+  }
+  .boxB {
+    width: 272px;
+    height: 10px;
+  }
+  .returnLogin {
+    display: inline-block;
+    width: 91px;
+    height: 32px;
+    line-height: 30px;
+    text-align: center;
+    color: #c66;
+    font-size: 14px;
+    font-weight: 700;
+    background: url(../images/loginbg.png) no-repeat;
+  }
+  .imgBox {
+    padding-top: 40px;
+    text-align: center;
+  }
+  
