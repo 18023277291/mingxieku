@@ -47,11 +47,7 @@ gulp.task('commecss',function(){	//api接口代码监听
 })
 gulp.task('commejs',function(){	//api接口代码监听
 	gulp.src('app/js/*.js')
-<<<<<<< HEAD
-	.pipe(gulp.dest('dist/commejs'))
-=======
 	.pipe(gulp.dest('dist/js'))
->>>>>>> fh
 	.pipe(connect.reload());
 })
 gulp.task('imgchange',function(){	//api接口代码监听
