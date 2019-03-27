@@ -7,6 +7,7 @@ var casual_shoes = (function () {
             $casual_shoes1 = $ele.querySelectorAll('.casual_shoes1');
             $dt = document.querySelectorAll('#dtt');
             console.log($ele);
+            this.gteHeader()
             this.event();
         },
         event() {
@@ -57,6 +58,13 @@ var casual_shoes = (function () {
             }
             console.log(str)
             $ele.innerHTML=str;
+        },
+        gteHeader(){
+            $('.haha').load('../common_head.html .heihei'),function(){
+                $('.nene').load('../common_footer.html .huhu'),function(){
+                    $('.lala').load('../common_fixed.html .rbar-outer')
+                }
+            }
         }
     }
 }())

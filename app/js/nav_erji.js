@@ -18,6 +18,7 @@ $(function () {
         $('.category-sub').css("display", "none")
     })
     $('.nanzi').on('mouseenter', function () {
+        console.log(12346)
         $('.nanzi_nav').css("display", "block")
     })
     $('.nanzi').on('mouseleave', function () {
