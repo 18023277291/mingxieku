@@ -214,6 +214,10 @@
     color: #F00;
     text-decoration: underline;
 }
+.bottom_100{
+    width: 100%;
+    background:#f8f8f8;
+}
 .bottom{
     width:990px;
     margin:0 auto;

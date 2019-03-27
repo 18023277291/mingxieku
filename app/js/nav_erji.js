@@ -1,6 +1,7 @@
 $(function () {
     $('.if_cat').on('mouseenter', function () {
         $('.suoyou_menu').css("display", "block")
+
     })
     $('.if_cat').on('mouseleave', function () {
         $('.suoyou_menu').css("display", "none")
@@ -18,10 +19,11 @@ $(function () {
         $('.category-sub').css("display", "none")
     })
     $('.nanzi').on('mouseenter', function () {
-        console.log(12346)
+        
         $('.nanzi_nav').css("display", "block")
     })
     $('.nanzi').on('mouseleave', function () {
+        // console.log(1111000)
         $('.nanzi_nav').css("display", "none")
     }),
         $('.nanzi_nav').on('mouseenter', function () {
@@ -54,6 +56,8 @@ $(function () {
     $('.ertong_nav').on('mouseleave', function () {
         $('.ertong_nav').css("display", "none")
     })
+
+    // fixed
     $('.gouwu').on('mouseenter', function () {
         $('.gwc').css("display", "block")
     })
@@ -61,6 +65,7 @@ $(function () {
         $('.gwc').css("display", "none")
     })
     $('.wodedingdan').on('mouseenter', function () {
+        console.log(1)
         $('.dingdan_2').css("display", "block")
     })
     $('.wodedingdan').on('mouseleave', function () {
@@ -98,7 +103,7 @@ function backToTop() {
     }, 800);
 }
 backButton.on('click', backToTop);
-
+// 返回顶部
 $(window).on('scroll', function () {/*当滚动条的垂直位置大于浏览器所能看到的页面的那部分的高度时，回到顶部按钮就显示 */
     if ($(window).scrollTop() > $(window).height())
         backButton.fadeIn();
