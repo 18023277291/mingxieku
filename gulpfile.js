@@ -47,7 +47,11 @@ gulp.task('commecss',function(){	//api接口代码监听
 })
 gulp.task('commejs',function(){	//api接口代码监听
 	gulp.src('app/js/*.js')
+<<<<<<< HEAD
 	.pipe(gulp.dest('dist/commejs'))
+=======
+	.pipe(gulp.dest('dist/js'))
+>>>>>>> fh
 	.pipe(connect.reload());
 })
 gulp.task('imgchange',function(){	//api接口代码监听
@@ -62,8 +66,11 @@ gulp.task('htmlWatch',function(){//监听css改变事件
 	gulp.watch('app/js/*.js',['js'])
 	gulp.watch('app/ajaxApi/*.js',['ajaxApi'])
 	gulp.watch('app/css/*.css',['commecss'])
+<<<<<<< HEAD
 	gulp.watch('app/commejs/*.js',['commejs'])
+=======
+	gulp.watch('app/js/*.js',['commejs'])
+>>>>>>> fh
 	gulp.watch('app/images/*',['imgchange'])
 });
-
 gulp.task('default',['allfile','Sass','conect','htmlWatch'])
