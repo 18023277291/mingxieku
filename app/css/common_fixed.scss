@@ -1,0 +1,206 @@
+.rbar-outer{
+    position: fixed;
+    width:37px;
+    height: 100%;
+    overflow: visible;
+    top: 0;
+    right: 0;
+    _right: 0;
+    z-index: 999999;
+    background: transparent;
+}
+.rbar-outer_nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 37px;
+    height: 100%;
+    background-color: #000;
+}
+.top_nav{
+    position: relative;
+    width: 41px;
+    height: 157px;
+    background-color:#BD0000;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-bottom-left-radius: 2px;
+    top: 0;
+    left: -4px;
+    cursor: pointer;
+}
+.top_nav .fixpng{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 37px;
+    height: 35px;
+    background: url(../images/fixed.png) no-repeat;
+    background-position: 7px 14px;
+}
+.top_nav .tab_txt{
+    position: absolute;
+    width: 20px;
+    display: block;
+    font-size: 18px;
+    line-height: 22px;
+    top: 48px;
+    left: 10px;
+    color: #fff;
+}
+.pingpaifenlei{
+    position: relative;
+    left: 0;
+    width: 37px;
+    height: 35px;
+    background-color: #000;
+    cursor: pointer;
+    z-index: 9;
+}
+.pingpaifenlei:hover{
+    background: #c40000;
+}
+.pingpaifenlei .ppfl{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 37px;
+    height: 35px;
+    background: url(../images/fixed.png) no-repeat;
+    background-position: 6px -29px;
+}
+.pingpaifenlei .ppfl_txt{
+    position: absolute;
+    width: 20px;
+    display: block;
+    font-size: 12px;
+    line-height:16px;
+    top: 40px;
+    left: 14px;
+    color: #fff;
+}
+.gouwuche{
+    position: relative;
+    left: 0;
+    width: 37px;
+    cursor: pointer;
+    z-index: 9;
+}
+.gouwuche .gwc_1{
+    position: absolute;
+    width: 37px;
+    height: 35px;
+    background: url(../images/fixed.png);
+    background-position:6px -77px; 
+}
+.gouwuche .gwc_2{
+    display: none;
+    position: absolute;
+    font-size: 12px;
+    right: 47px;
+    top: 0px;
+    width: 90px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    background-color: #494949;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,.2);
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    -webkit-transition: right .3s ease both;
+    -moz-transition: right .3s ease both;
+    transition: right .3s ease both;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+.gwc-arr{
+    position: absolute;
+    top: 10px;
+    right: -8px;
+    color: #494949;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "\5b8b\4f53";
+}
+.wodedingdan .dingdan_1{
+    background-position: 10px -119px;
+}
+.kefu .kf_1{
+    background-position: 6px -164px;
+}
+.wodeshoucang .wdsc_1{
+    background-position: 7px -218px;
+}
+.fenxiang{
+    position: relative;
+}
+.fenxiang .fx_1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 37px;
+    height: 35px;
+    background: url(../images/fixed.png) no-repeat;
+    background-position: 8px -273px;
+    bottom: 30px;
+}
+.fenxiang .fx_2{
+    position: absolute;
+    width: 191px;
+    height: auto;
+    padding-top: 3px;
+}
+.fx_2 span{
+    float: left;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/share_icon.gif);
+}
+.fx_2 .weibo{
+    background-position: 0 0;
+}
+.fx_2 .qq{
+    background-position: 0 -16px;
+}
+.fx_2 .renren{
+    background-position: 0 -48px;
+}
+.fx_2 em{
+    float: left;
+    margin-left: 5px;
+    font-style: normal;
+    font-size: 12px;
+}
+.fx_2 a{
+    float: left;
+    margin: 3px 5px 3px 0;
+    padding: 3px;
+    width: 78px;
+    line-height: 14px;
+    text-align: center;
+    cursor: pointer;
+    border: solid 1px #464646;
+    color: #FFF;
+    list-style: none;
+}
+.fx_2 a:hover{
+    box-shadow: 0 0 1px rgba(102,102,102,.9);
+    border-radius: 2px;
+    border-color: #363636;
+    color: #fff;
+}
+.fanhuitop .fht_1{
+    background-position: 7px -324px;
+}
+.gouwuche:hover{
+    background: #c40000;
+}
+.fenxiang:hover{
+    background: #c40000
+}

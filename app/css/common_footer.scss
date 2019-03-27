@@ -1,0 +1,216 @@
+#footbrand{
+    background: #fff;
+    overflow: hidden;
+    padding-bottom: 1px;
+    margin: 0 auto;
+    height: 142px;
+}
+#footbrand a{
+    border: 1px solid #DFDFDF;
+    display: block;
+    float: left;
+    height: 70px;
+    margin: 0 -1px -1px 0;
+    overflow: hidden;
+    position: relative;
+    text-indent: -999px;
+    width: 98px;
+    background: url(../images/brand.png) no-repeat 0 0;
+}
+#footbrand a span{
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: background-color 0.3s ease 0s;
+    visibility: hidden;
+    width: 100%;
+    cursor: pointer;
+}
+#footbrand a:hover span{
+    background: #000;
+    opacity: 0.1;
+    filter: alpha(opacity=10);
+    visibility: visible;
+}
+#footbrand .nike{
+    background-position: 21px -176px;
+}
+#footbrand .adidas{
+    background-position: -106px -176px;
+}
+#footbrand .syc{
+    background-position: -715px -333px;
+}
+#footbrand .neo{
+    background-position: -838px -333px;
+}
+#footbrand .nb{
+    background-position: -590px -176px;
+}
+#footbrand .converse{
+    background-position: -596px -10px;
+}
+#footbrand .skq{
+    background-position: -591px -258px;
+}
+#footbrand .puma{
+    background-position: -835px -176px;
+}
+#footbrand .vans{
+    background-position: -105px -256px;
+}
+#footbrand .asics{
+    background-position: -467px -331px;
+}
+#footbrand .umbro{
+    background-position: -718px -486px;
+}
+#footbrand .dc{
+    background-position: -595px -491px;
+}
+#footbrand .lining{
+    background-position: -230px -176px;
+}
+#footbrand .nike_tx{
+    background-position: -229px -491px;
+}
+#footbrand .adidas_tx{
+    background-position: -350px -491px;
+}
+#footbrand .puma_tx{
+    background-position: 15px -564px;
+}
+#footbrand .skq_tx{
+    background-position: -105px -564px;
+}
+#footbrand .disney{
+    background-position: -223px -564px;
+}
+.btmfenlei_hd{
+    height: 36px;
+    width: 990px;
+    margin: 0 auto 28px;
+    clear: both;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.btmfenlei_hd h3{
+    font-size: 18px;
+    font-family: microsoft yahei;
+    position: absolute;
+    left: 50%;
+    margin: 12px 0 0 -60px;
+    background: #fff;
+    padding: 10px 20px;
+    font-weight: 100;
+}
+.btmfenlei_body {
+    width: 990px;
+    margin: 0 auto 15px;
+    font-family: microsoft yahei;
+    overflow: hidden;
+}
+.btmfenlei_body dl{
+    width: 245px;
+    float: left;
+    padding-right: 2px;
+}
+.btmfenlei_body dt{
+    text-align: center;
+}
+.btmfenlei_body dt a{
+    color: #222;
+    text-decoration: none;
+}
+.btmfenlei_body dt b{
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+}
+.btmfenlei_body dt img{
+    width: 80px;
+    height: 80px;
+}
+.btmfenlei_body dd{
+    border-right: 1px dotted #ccc;
+    height: 85px;
+    overflow: hidden;
+    padding: 0 10px 0 15px;
+}
+.btmfenlei_body dd a{
+    color: #555;
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    width: 54px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.btmfenlei_body a:hover{
+    color: #c00;
+    text-decoration: underline;
+}
+.warp_btm{
+    margin: 0 auto;
+    width: 990px;
+}
+#foot{
+    border-top: 2px solid #ce3c3b;
+    background: #f8f8f8;
+}
+.row{
+    padding: 15px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #e8e8e8;
+    height: 195px;
+}
+.row .row_warp{
+    margin: 0 auto;
+    width: 990px;
+    height: 195px;
+}
+.row .ewm{
+    height: 195px;
+    width: 220px;
+    border-right: 1px solid #dedede;
+    float: left;
+    position: relative;
+}
+.row .ftli{
+    border-left: 1px solid #fff;
+    height: 195px;
+    padding-left: 40px;
+    float: left;
+    line-height: 1.6em;
+}
+.row .ftli li{
+    float: left;
+    display: block;
+    width: 182px;
+}
+.row .ftli li h6{
+    display: block;
+    height: 36px;
+    margin: 5px 0 25px;
+}
+.row .ftli li h5{
+    font-size: 100%;
+    font-weight:600;
+    display: block;
+    margin: 0 0 6px;
+    font-size: 14px;
+    color: #666;
+    font-family: '宋体';
+}
+.row .ftli li span a{
+    color: #999;
+}
+.row .ftli li span a:hover{
+    color: #F00;
+    text-decoration: underline;
+}
