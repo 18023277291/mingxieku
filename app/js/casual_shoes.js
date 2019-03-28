@@ -39,12 +39,12 @@ var casual_shoes = (function () {
             console.log($ele);
             let $code = `<dl class="casual_shoes1">
             <dt id="dtt">
-            <a href="#" target="_blank">
+            <a href="detail.html" target="_blank">
             <img src="images/xie.jpg">
             </a>
             </dt>
             <dd>
-            <a href="#" target="_blank">
+            <a href="detail.html" target="_blank">
             <ul>
             <li class="r2">adidas阿迪达斯男子板鞋透气休闲运动鞋AW3890</li>
             <li class="r1"><i class="price">￥249</i><i class="del_price">￥399</i><i
