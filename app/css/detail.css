@@ -8,7 +8,7 @@ body{font-family: "宋体"}
 input{outline:none;}
 img{border:0;display:block;}
 
-.detail,.styleSheet{width:990px;margin:0 auto;}
+.detail,.styleSheet,.details_follows{width:990px;margin:0 auto;}
 
 
 
@@ -231,4 +231,103 @@ main{
     line-height: 27px;
     padding-left: 14px;
     font-size: 14px;    
+}
+.particular .model .quantity .numadjust{
+    float: left;
+    display: block;
+    height: 15px;
+    width: 15px;
+    overflow: hidden;
+    background: url(../images/head_common.jpg) no-repeat;
+    background-position: -38px -35px;
+    cursor: pointer;
+    margin: 6px 3px;
+}
+.particular .model .quantity .r{
+    background-position: -54px -35px;
+}
+.particular .model .quantity input{
+    border: 1px solid #e0e0e0;
+    height: 16px;
+    width: 26px;
+    line-height: 16px;
+    text-align: center;
+    margin: 3px;
+    float: left;
+    font-family: arial;
+    color: #555;
+    font-size: 12px;
+}
+.particular .model .quantity .collect{
+    width:85px;
+    height:25px;
+    font-size:14px;
+    border:1px solid #a3a1a1;
+    margin-left: 430px;
+    line-height:25px;
+    padding-left:10px;
+    background:#fff;
+    border-radius: 5px;
+}
+.particular .purchase{
+    width:543px;
+    height: 58px;
+}
+.particular .purchase .shop_show{
+    color: #666;
+    display:block;
+    width:100px;
+    font-size: 12px;
+    margin-top:30px;
+    float: left;
+}
+.particular .purchase .immediately,.shopping_cart{
+    float: right;
+}
+.particular .purchase .immediately{
+    width: 137px;
+    height: 44px;
+    background: #d00;
+    border-radius: 5px;
+    font-size:24px;
+    color:#fff;
+    line-height: 44px;
+    text-align: center;
+    margin-top:15px;
+}
+.particular .purchase .shopping_cart{
+    width: 171px;
+    height: 44px;
+    background: #f78605;
+    border-radius: 5px;
+    font-size:24px;
+    color:#fff;
+    margin-top:15px;
+    margin-left:15px;
+    line-height: 44px;
+    text-align: center;
+}
+.particular .service{
+    padding: 5px 0;
+    padding-top: 5px;
+    font-size: 12px;
+}
+.particular .service .service_QQ{
+    display: inline-block;
+    position: relative;
+    top:7px;
+    width:65px;
+    height: 20px;
+    background: url(../images/QQ.gif) no-repeat;
+}
+.particular .laji{
+    height:25px;
+    padding: 10px 0;
+    font-family: '宋体';
+    color: #777;
+    background: url(../images/laji.png) no-repeat;
+    background-origin:content-box;
+}
+main .details_follows .rty{
+    margin:5px 0;
 }
