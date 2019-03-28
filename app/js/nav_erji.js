@@ -96,14 +96,14 @@ $(function () {
         $('.fht_2').css("display", "none")
     })
 })
+// 返回顶部
 var backButton = $('.fanhuitop');
 function backToTop() {
     $('html,body').animate({
         scrollTop: 0
-    }, 800);
+    }, 200);
 }
 backButton.on('click', backToTop);
-// 返回顶部
 $(window).on('scroll', function () {/*当滚动条的垂直位置大于浏览器所能看到的页面的那部分的高度时，回到顶部按钮就显示 */
     if ($(window).scrollTop() > $(window).height())
         backButton.fadeIn();
