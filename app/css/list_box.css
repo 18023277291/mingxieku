@@ -7,7 +7,6 @@ b,strong{font-weight: normal;}
 h1,h2,h3,h4,h5,h6{font-size: 16px;}
 input{outline: none;}
 img{display: block;}
-.clear：after{content:'.'; display:block; clear:both; height:0; overflow:hidden; visibility:hidden; } 
 *{
     margin:0;
     padding:0;
@@ -17,9 +16,11 @@ body{
 }
 
 /* 主体开始 */
-.Navigation,.n_bar,.n_filterbox{margin: 0 auto;}
+#wrap{
+    width:990px;
+    margin: 0 auto;
+}
 .Navigation{
-    width: 990px;
     height:14px;
     font-size:12px;
     color:#999;
@@ -34,7 +35,6 @@ body{
     color:#999;
 }
 .n_bar{
-    width: 974px;
     border: 1px solid #e5e5e5;
     background: #f1f1f1;
     padding-left:14px;
@@ -61,7 +61,6 @@ body{
 
 /* 选择 */
 .n_filterbox{
-    width: 988px;
     border: 1px solid #e5e5e5;
     border-top: 0;
     margin-bottom: 0;
@@ -76,7 +75,6 @@ body{
     margin-bottom: -1px;
 }
 .n_chose{
-    width:958px;
     height: 21px;
     padding:15px;
     font-size:12px;
@@ -129,3 +127,286 @@ body{
     border:#666;
     background: url(../images/list_icon.png) no-repeat 0 -66px;
 }
+/* 类型 */
+.n_select dl{
+    height: 23px;
+    display: block;
+    padding: 12px 110px 4px 70px;
+    border-bottom: 1px dotted #ccc;
+    position: relative;
+    white-space: nowrap;
+    zoom: 1;
+}
+.more_open{
+    position: absolute;
+    top: 11px;
+    right: 58px;
+    color: #666;
+    line-height: 16px;
+    padding: 0 5px 0 20px;
+    background: #eee url(../images/images/list_icon.png) no-repeat 5px -364px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.n_select dl dt{
+    display: block;
+    width: 65px;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    text-align: right;
+    color: #888;
+}
+.n_select dl dd{
+    width: 110px;
+    height: 23px;
+    float: left;
+    white-space: nowrap;
+}
+.n_select dl dd a{
+    color: #333;
+} 
+.n_select dl dd a:hover{
+    color: red;
+    text-decoration:underline;
+}
+.n_select dl dd a i{
+    color:#999;
+}
+.n_select dl dd a i:hover{
+    color:red;
+}
+.n_select .select_dl{
+    height: 45px;
+}
+/* 展开 */
+.n_select_open{
+    display: block;
+    width: 98px;
+    height: 34px;
+    padding-right: 10px;
+    line-height: 28px;
+    color: #666;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    margin-top: -2px;
+    border-radius: 5px;
+    background: #E5E5E5 url(../images/images/c_o_icon.png) no-repeat;
+}
+.n_box{
+    height:10px;
+    clear:both;
+    overflow: hidden;
+}
+/* 排序 */
+.n_desc_page{
+    border: 1px solid #dbdbdb;
+    border-top-width: 4px;
+    background: #f7f7f7;
+    height: 36px;
+    line-height: 36px;
+    color: #666;
+    padding: 0 5px 0 10px;
+}
+.n_desc_page .desc{
+    float: left;
+}
+.n_desc_page .desc i{
+    float: left;
+}
+.n_desc_page .desc a{
+    display: block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    color: #666;
+    border-radius: 2px;
+    background: #ccc url(../images/images/list_icon.png) no-repeat 34px -159px;
+    margin: 8px 6px 0 3px;
+    padding: 0 16px 0 7px;
+    font-family: '宋体';
+    text-decoration: none;
+}
+.n_desc_page .desc a:hover{
+    color: #fff;
+    background-color: #666;
+    background-position: 34px -181px;
+}
+.page{
+    float: right;
+    padding-right:8px;
+}
+.n_desc_page .page .select_info{
+    float: left;
+}
+.n_desc_page .page i{
+    color: #f60;
+    padding: 0 3px;
+}
+/* 列表 */
+.product_list{
+    float: left;
+}
+.product_list dl{
+    width: 220px;
+    margin: 20px 11px 10px;
+    border: 1px solid #eee;
+    height: 322px;
+}
+.product_list dl{
+    float: left;
+}
+.product_list dt{
+    text-align: center;
+    overflow: hidden;
+    border:1px solid #eee;
+    height: 244px;
+    border: 0;
+    padding: 3px 0 3px 4px;
+    position: relative;
+}
+.product_list dt img {
+    height: 210px;
+    width: 210px;
+}
+.product_list .p-scroll{
+    position: absolute;
+    z-index: 2;
+    width: 220px;
+    height:34px;
+    margin-top: 2px;
+}
+.product_list .p-scroll .ps-prev {
+    float: left;
+    width:15px;
+    height:29px;
+    line-height: 29px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "\5b8b\4f53";
+    color:#aaa;
+    padding-left:5px;
+    overflow: hidden;
+}
+.ps-wrap{
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 170px;
+    height: 29px;
+    zoom: 1;
+}
+.product_list .p-scroll li {
+    float: left;
+    width: 34px;
+    height: 29px;
+    text-align: left;
+    overflow: hidden;
+}
+.product_list .p-scroll a {
+    cursor: default;
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 1px;
+}
+.product_list .p-scroll img {
+    width: 25px;
+    height: 25px;
+}
+.product_list .p-scroll img:hover{
+    border:1px solid red;
+}
+.product_list .p-scroll .ps-next {
+    float: right;
+    width:15px;
+    height:29px;
+    line-height: 29px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "\5b8b\4f53";
+    color:#aaa;
+    padding-right:5px;
+    overflow: hidden;
+}
+.product_list dd {
+    margin-top: 3px;
+    position: relative;
+    height: 70px;
+    z-index: 2;
+}
+.product_list dd a{
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+.product_list dd ul {
+    padding: 5px 5px 5px 10px;
+    position: absolute;
+    height: 60px;
+    width:203px;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.product_list dd li {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.product_list dd li.r1 .price {
+    font:verdana;
+    padding-right: .8em;
+}
+.product_list dd li.r1 .del_price {
+    font-family: verdana;
+    color: #888;
+    text-decoration: line-through;
+}
+.product_list dd li.r3{
+    color: #999;
+}
+.product_list dd li.r3 i {
+    color: #f60;
+    font-weight: 700;
+    padding: 0 3px;
+}
+.product_list dd li.r4 {
+    display:block;
+    color: #555;
+    padding: 5px 0;
+    height: auto;
+    position:absolute;
+}
+/* 分页器 */
+/* .part {
+    float: right;
+    width: 480px;
+    margin:0 auto;
+    height:29px;
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    margin-right:25px;
+}
+.simplePaging{
+    float: left;
+    width:270px;
+}
+.spPrev{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: top;
+    user-select: none;
+    cursor: pointer;
+    box-sizing: content-box!important;
+} */

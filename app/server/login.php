@@ -18,10 +18,4 @@ if($resulf){
       location.href='../login.html';
  </script>";
 }
-
-
-
-
-
-
 ?>
