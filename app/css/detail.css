@@ -28,6 +28,7 @@ main{
 .styleSheet .detail_img{
     height:536px;
     width:447px;
+    float: left;
 }
 .styleSheet .detail_img .showImg{
     width:430px;
@@ -51,7 +52,7 @@ main{
     height:6px;
     padding:0 20px;
 }
-.styleSheet .detail_img .showminImg li .corner_jj div{
+.styleSheet .detail_img .showminImg li .corner_jj .corner_1{
     border-bottom:6px solid #f78605;
     border-left:5px solid #fff;
     border-right: 5px solid #fff;
@@ -60,4 +61,174 @@ main{
     width:45px;
     height:35px;
     border:1px solid #fff;
+}
+.particular{
+    width:543px;
+    height:536px;
+    float: left;
+}
+.particular .receive{
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+.h2_box{
+    float:left;
+    line-height:21px;
+    font-size: 15px;
+    color: #111;
+    font-weight: bold;
+    /* background:red; */
+    width:435px;
+}
+.particular .neo{
+    display: block;
+    float: right;
+    font-size:12px;
+    color:#ccc;
+}
+.particular .neo a {
+    color:#F60;
+    font-size:12px;
+}
+#sp{
+    /* position: relative; */
+    padding-top:48px;
+    margin:5px 0;
+    width:543px;
+    border-bottom:1px dotted #ccc;
+}
+.particular li{
+    /* margin-top:8px; */
+    display: block;
+    font-size:12px;
+    line-height: 25px; 
+    color: #666;
+}
+.particular .tag_price .price{
+    color: #666;
+    text-decoration: line-through;
+}
+.particular .sales_price .price{
+    color:#d00;
+    font-size: 18px;
+    font-weight: 700;
+}
+.particular .degree .star{
+    display: inline-block;
+    width: 60px;
+    height: 11px;
+    overflow: hidden;
+    background:url(../images/star.png) no-repeat ;
+}
+#sp_h{
+    /* margin:5px 0; */
+    width:543px;
+    border-bottom:1px dotted #ccc;
+    margin-top:10px;
+}
+.particular .promotion{
+    width:100%;
+    color: #666;
+    font-size: 12px;
+    height:20px;
+    padding: 10px 0 5px 0;
+    line-height:20px;
+}
+.message{
+    height:20px;
+    background: #ffe9e9;
+}
+.particular .promotion .message_1{
+    padding:0 5px;
+    text-align: center;
+    border-right: 2px solid #fff;
+    float: left;
+    color: #fff;
+    background: #ff9090;
+}
+.particular .promotion .message_2{
+    float: left;
+    padding: 0 5px;
+    height: 20px;
+    color: #fe6464;
+    float: left;
+    white-space: nowrap;
+}
+.particular .model{
+    background: #f5f5f5;
+    padding: 7px 2px;
+    width: 539px;
+    height:116px;
+    margin-top:5px;
+}
+.particular .model .size{
+    padding:3px 0;
+    height: 31px;
+    width:100%;
+    /* background:#fda; */
+    line-height: 37px;
+    font-size: 14px;
+    color: #333;
+}
+.particular .model .size .size_c{
+    padding-left:42px;
+}
+.particular .model .size .s,.m,.l{
+    padding:4px 6px;
+    border: 1px #ccc solid;
+}
+.particular .model .size .s:hover{
+    padding: 3px 5px;
+    border-width: 2px;
+    border-color: #f90;
+    cursor: pointer;
+}
+.particular .model .size .m:hover{
+    padding: 3px 5px;
+    border-width: 2px;
+    border-color: #f90;
+    cursor: pointer;
+}
+.particular .model .size .l:hover{
+    padding: 3px 5px;
+    border-width: 2px;
+    border-color: #f90;
+    cursor: pointer;
+}
+.particular .model .model_color{
+    height: 40px;
+    padding:3px 0;
+}
+.particular .model .model_color .model_color1{
+    float:left;
+    line-height: 40px;
+    padding-left: 42px;
+    font-size: 14px;
+}
+.particular .model .model_color .model_color2{
+    width:34px;
+    height: 34px;
+    float: left;
+    margin: 3px;
+}
+.particular .model .model_color .model_color2 img{
+    width:30px;
+    height:30px;
+    padding: 1px;
+    border: 1px solid #ccc;
+}
+.particular .model .model_color .model_color2:hover img{
+    width: 28px;
+    height: 28px;
+    border: 2px solid #f90;
+}
+.particular .model .quantity{
+    padding: 3px 0;
+    height:27px;
+}
+.particular .model .quantity .quantity_explain{
+    float:left;
+    line-height: 27px;
+    padding-left: 14px;
+    font-size: 14px;    
 }
