@@ -38,22 +38,22 @@ var product_list = (function () {
             console.log($ele);
             let $code = ` <dl class="product_list1">
             <dt id="product_list2">
-            <a href="#">
+            <a href="detail.html">
             <img src="./images/images/7ea567c47a7009e4_210.jpg" alt="">
             </a>
             <div class="p-scroll">
             <span class="ps-prev disabled"><</span>
             <div class="ps-wrap">
             <ul>
-            <li><a href="#"><img src="./images/images/7ea567c47a7009e4_210.jpg" alt=""></a></li>
-            <li><a href="#"><img src="./images/images/7ea567c47a7009e4_210.jpg" alt=""></a></li>
+            <li><a href="detail.html"><img src="./images/images/7ea567c47a7009e4_210.jpg" alt=""></a></li>
+            <li><a href="detail.html"><img src="./images/images/7ea567c47a7009e4_210.jpg" alt=""></a></li>
             </ul>
             </div>
             <span class="ps-next">></span>
             </div>
             </dt>
             <dd>
-            <a href="#">
+            <a href="detail.html">
             <ul>
             <li class="r1">
             <i class="price">￥399.00</i>
