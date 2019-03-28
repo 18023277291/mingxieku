@@ -17,7 +17,7 @@
     height: 100%;
     background-color: #000;
 }
-.top_nav{
+.top_navr{
     position: relative;
     width: 41px;
     height: 157px;
@@ -29,7 +29,7 @@
     left: -4px;
     cursor: pointer;
 }
-.top_nav .fixpng{
+.top_navr .fixpng{
     position: absolute;
     left: 0;
     top: 0;
@@ -38,7 +38,7 @@
     background: url(../images/fixed.png) no-repeat;
     background-position: 7px 14px;
 }
-.top_nav .tab_txt{
+.top_navr .tab_txt{
     position: absolute;
     width: 20px;
     display: block;

@@ -7,6 +7,7 @@ var casual_shoes = (function () {
             $casual_shoes1 = $ele.querySelectorAll('.casual_shoes1');
             $dt = document.querySelectorAll('#dtt');
             console.log($ele);
+            this.gteHeader();
             this.event();
         },
         event() {
@@ -24,17 +25,17 @@ var casual_shoes = (function () {
                     // $pp.style.margin = '3px 8px';
                     $num.style.border = '1px solid #fff';
                     $pp.style.border = '2px solid red';
-                },false)
+                }, false)
                 $pp.addEventListener('mouseleave', function () {
                     console.log(9);
                     // $pp.style.margin = '5px 10px';
                     $num.style.border = '1px solid #ccc';
                     $pp.style.border = '2px solid #fff';
-                },false)
+                }, false)
             }
         },
         Add_thegoods(num) {
-            let str='';
+            let str = '';
             console.log($ele);
             let $code = `<dl class="casual_shoes1">
             <dt id="dtt">
@@ -53,10 +54,20 @@ var casual_shoes = (function () {
             </dd>
             </dl>`;
             for (let i = 0; i < num; i++) {
-               str+=$code;
+                str += $code;
             }
             console.log(str)
-            $ele.innerHTML=str;
+            $ele.innerHTML = str;
+        },
+        gteHeader() {
+            $('.haha').load('../common_head.html .heihei', function () {
+                $('.nene').load('../common_footer.html .huhu', function () {
+                    $('.lala').load('../common_fixed.html .rbar-outer',function(){
+                        $.getScript('../js/nav_erji.js')
+                    })
+                })
+            })
+
         }
     }
 }())

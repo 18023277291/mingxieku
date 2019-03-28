@@ -13,9 +13,9 @@ img{border:0;display:block;}
     position: relative;
 }
 main {
-    /* overflow: hidden; */ 
+    overflow: hidden;
 }
-img {
+.imgBox {
     margin-left:-465px;
 }
 
