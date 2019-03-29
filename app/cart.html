@@ -159,7 +159,8 @@
                     </tbody>
                 </table>
             </div>
-            <div id="product_items" class="cart_tb_body c666">
+            <div class="jiegoy">
+            <!-- <div id="product_items" class="cart_tb_body c666">
                 <table border="0" cellspacing="0" cellpadding="0" width="100%">
                     <colgroup>
                         <col class="span-155">
@@ -203,36 +204,29 @@
                             </td>
                             <td class="f_yh" style="width:90px;height:81px"> - </td>
                             <td class="f_yh" style="width:90px;height:81px"> ￥239.00 </td>
-                            <td style="width:90px;height:81px"> <a class="Fav_g" onclick="Cart.ajaxAddFav(114968,&quot;product_items&quot;);"
-                                    href="javascript:void(0)" goods_id="114968">收藏</a> <br> <a
+                            <td style="width:90px;height:81px"> <a class="Fav_g" onclick="Cart,*goods_id="114968">收藏</a> <br> <a
                                     onclick="Cart.removeItem(this,event);" href="javascript:void(0)">删除</a> </td>
                         </tr>
                     </tbody>
                 </table>
                 <div class="sp"></div>
-            </div>
+            </div> -->
+        </div>
             <div class="cart_check_info"> 商品数量:
                 <i class="fb cc00" style="font-weight: 700;color: #c00;">1</i>&nbsp;件
                 <i id="has_pmt" class="caaa" style="color: #aaa;">享受的优惠：</i>
                 <span>满199减20，满399减50</span>
                 <input type="hidden" id="has_pmt_status" value="1">
-                <script type="text/javascript">
-                    window.addEvent('domready', function () {
-                        if ($('has_pmt_status').value == 0) {
-                            $('has_pmt').destroy();
-                        }
-                    });
-                </script>
                 <div class="box10">
                 </div>
                 商品总金额：
-                <span class="c_total" style="font-size: 22px;color: #C00;">￥219.00</span>
+                <span class="c_total" style="font-size: 22px;color: #C00;">￥99999</span>
             </div>
             <div class="cart_check_act" style="z-index:1">
                 <div class="tip"><i class="cc00" style="color:#c00;">提示：</i>
                     加入购物车的商品无法为您保证库存，请及时下单支付。
                 </div>
-                <a id="cart_goBuy" href="index.html" class="bgbuy">
+                <a id="cart_goBuy" href="" class="bgbuy">
                     <i></i>继续购物</a>
                 <input class="chkbtn" onclick="return check_goods_cart();" id="cart_getotal" type="submit" value="下单结算">
             </div>
@@ -286,6 +280,9 @@
     </div>
     <script src="https://cdn.staticfile.org/jquery/3.3.1/jquery.js"></script>
     <script src="js/cart.js"></script>
+    <script>
+        shopList.init(".jiegoy")
+    </script>
 </body>
 
 </html>

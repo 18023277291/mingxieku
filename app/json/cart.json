@@ -1,0 +1,26 @@
+{
+    "msg": 200,
+    "data": [
+        {
+            "id": 1,
+            "name": "NewBalance-NB 新款男装卫衣运动服运动休闲AMT64606-BK FP",
+            "img":"../images/NewBalance-NB 新款男装卫衣运动服运动休闲AMT64606-BK FP", 
+            "price": 239,
+            "ps": "日销量能绕地球100圈"
+        },
+        {
+            "id": 2,
+            "name": "NewBalance-NB 新款男装卫衣运动服运动休闲",
+            "img":"",
+            "price": 240,
+            "ps": "日销量能绕地球100圈"
+        },
+        {
+            "id": 3,
+            "name": "NewBalance-NB 新款男装卫衣运动服运动休闲",
+            "img":"",
+            "price": 360,
+            "ps": "日销量能绕地球100圈"
+        }
+    ]
+}
