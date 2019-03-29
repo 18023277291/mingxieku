@@ -59,7 +59,7 @@ var casual_shoes = (function () {
             console.log(str)
             $ele.innerHTML = str;
         },
-        gteHeader() {
+        gteHeader(){
             $('.haha').load('../common_head.html .heihei', function () {
                 $('.nene').load('../common_footer.html .huhu', function () {
                     $('.lala').load('../common_fixed.html .rbar-outer',function(){
